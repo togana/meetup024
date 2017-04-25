@@ -1,0 +1,7 @@
+
+model.hdf5
+Untitled.ipynb
+.ipynb_checkpoints
+**/__pycache__/*
+*.pyc
+.DS_Store
