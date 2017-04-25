@@ -30,6 +30,7 @@ $ pyenv --version
 
 $ pyenv install anaconda3-2.5.0
 $ pyenv global anaconda3-2.5.0
+$ python --version
 > Python 3.5.3 :: Anaconda 2.5.0 (x86_64)
 ```
 
@@ -47,12 +48,9 @@ $ python
 
 
 ```
+$ git clone https://github.com/arakawamoriyuki/meetup024.git
+$ cd meetup024
 $ pip install -r ./requirements.txt
-```
-
-```
-$ python --version
-Python 3.5.3 :: Anaconda 2.5.0 (x86_64)
 ```
 
 ```
