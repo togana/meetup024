@@ -1,5 +1,8 @@
 
+MNIST_data/*
+model.png
 model.hdf5
+
 Untitled.ipynb
 .ipynb_checkpoints
 **/__pycache__/*

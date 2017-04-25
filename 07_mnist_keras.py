@@ -97,8 +97,8 @@ print("loss:{} accuracy:{}".format(
 
 # --- モデル構造の可視化 ---
 
-from keras.utils.visualize_util import plot
-plot(model,
+from keras.utils.vis_utils import plot_model
+plot_model(model,
     to_file="model.png",
     show_shapes=True,
     show_layer_names=True
