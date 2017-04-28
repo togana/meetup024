@@ -16,6 +16,7 @@ $ vi ~/.zshrc
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 ```
 
 ```
@@ -32,6 +33,7 @@ $ pyenv install anaconda3-2.5.0
 $ pyenv global anaconda3-2.5.0
 $ python --version
 > Python 3.5.3 :: Anaconda 2.5.0 (x86_64)
+$ pip install matplotlib
 ```
 
 [TF_PYTHON_URL](https://www.tensorflow.org/install/install_mac#TF_PYTHON_URL)
